@@ -1,16 +1,19 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9faf7;
+    color: #361d1a;
+    border: 2px solid #361d1a;
+
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    line-height: 45px;
+    border-bottom: 2px solid #361d1a;
 }
 
-nav>* {
-    border: 1px solid black;
-}
 
 .nav-brand {
     padding: 10px 15px;
@@ -27,11 +30,11 @@ nav>* {
 }
 
 .nav-item {
-    border: 1px dashed red;
 }
 
 .nav-item a {
     padding: 10px 15px;
+    text-decoration: none;
 }
 
 .container {
@@ -46,18 +49,19 @@ nav>* {
 
 .text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    line-height: 50px;
 }
 
 .preview>ul {
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+
 #coverimg {
-    width: 400px;
-    height: 500px;
+    width: 35%;
 }
 
 #coverimg img {
@@ -65,5 +69,5 @@ nav>* {
 }
 
 #slogan {
-    font-size: 35px;
+    font-size: 55px;
 }
